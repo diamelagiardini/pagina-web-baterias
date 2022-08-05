@@ -1,0 +1,32 @@
+.contenedor-padre-servicios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.contenedor-servicios {
+  width: 790px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-servicios {
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+

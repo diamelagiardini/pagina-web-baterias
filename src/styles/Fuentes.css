@@ -1,0 +1,45 @@
+/* FUENTES */
+
+/* Titulos */
+
+.fuente-titulo-principal {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.fuente-texto-secundario {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.334;
+}
+
+
+/* COLORES */ 
+
+.color-fuente-principal{
+  color:#4F766F;
+}
+
+.color-fuente-general{
+  color: #FFFFFF;
+}
+
+.color-fuente-secundario{
+  color: #6d7172
+}
+
+.color-fuente-oscuro{
+  color: rgba(0, 0, 0, 0.87);
+}
+
+
+.texto-centrado{
+  text-align: center;
+}
+
+.texto-start{
+  text-align: start;
+}
