@@ -1,0 +1,38 @@
+.contenedor-padre-baterias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+  height: 100vh;
+}
+
+.contenedor-imagenes-baterias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1440px;
+}
+
+.contenedor-imagen-bateria {
+  width: 460px;
+  height: 350px;
+  margin: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.contenedor-imagen-bateria:hover {
+  cursor: pointer;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  transform: translateY(-12px);
+}
+
+.zoom-oeste {
+  zoom: 1.2;
+}
