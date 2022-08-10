@@ -33,6 +33,27 @@
   transform: translateY(-12px);
 }
 
-.zoom-oeste {
-  zoom: 1.2;
+.zoom-moura {
+  zoom: 0.6;
 }
+
+.zoom-williard {
+  zoom: 0.7;
+}
+.zoom-oeste {
+  zoom: 0.6;
+}
+
+.contenedor-tarjetas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: tomato;
+}
+
+.card-bateria{
+  
+}
+
